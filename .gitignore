@@ -127,3 +127,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 docker-compose.debug.yml
+
+# Backup files
+*.bak
