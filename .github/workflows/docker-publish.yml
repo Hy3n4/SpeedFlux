@@ -1,12 +1,10 @@
 name: Build Container
 on:
-  release:
-    types: [created]
-  # push:
-  #   # Publish `master` as Docker `latest` image.
-  #   branches:
-  #     - master
-  #     - feature-influx2
+  push:
+    # Publish `master` as Docker `latest` image.
+    branches:
+      - master
+      - feature-influx2
 
     # Publish `v1.2.3` tags as releases.
     tags:
