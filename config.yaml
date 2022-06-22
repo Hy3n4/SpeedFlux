@@ -1,0 +1,12 @@
+name: "SpeedFlux"
+description: "SpeedFlux will monitor your internet speeds at a regular interval and export all of the data to InfluxDB."
+version: "0.4.1"
+slug: "speedflux"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+image: ghcr.io/hy3n4/speedflux-addon
