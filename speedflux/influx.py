@@ -185,6 +185,8 @@ class Influx:
         for tag in tags:
             # split the tag string, strip and add selected tags to {options}
             # with corresponding tag_switch data
+            speedflux.LOG.info("tag:")
+            speedflux.LOG.info(tag)
             tag = tag.strip()
             options[tag] = tag_switch[tag]
         return options
