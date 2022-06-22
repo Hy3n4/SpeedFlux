@@ -1,6 +1,6 @@
 name: "SpeedFlux"
 description: "SpeedFlux will monitor your internet speeds at a regular interval and export all of the data to InfluxDB."
-version: "0.4.1"
+version: "0.4.2"
 slug: "speedflux"
 init: false
 arch:
