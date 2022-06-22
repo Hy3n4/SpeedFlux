@@ -4,6 +4,8 @@
 # SpeedFlux <img src='https://user-images.githubusercontent.com/3665468/119735610-974a0500-be4a-11eb-9149-dd12ceee03df.png' width='75'>
 ---
 
+[![Build Container](https://github.com/Hy3n4/SpeedFlux/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Hy3n4/SpeedFlux/actions/workflows/docker-publish.yml)
+
 SpeedFlux will monitor your internet speeds at a regular interval and export all of the data to InfluxDB. 
 
 It is mostly written in Python but, uses Ookla's SpeedTest CLI. This is a CLI app. We use Python subprocess to utilize this tool.
